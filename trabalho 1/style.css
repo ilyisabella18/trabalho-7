@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+
+    font-size: 26px;
+    font-family: "Playfair Display", serif;
+    background: #f1f1f1;
+  
+  }
+  
+  .main {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  #img {
+    border-radius: 5%;
+    width: 450px;
+  }
+  
+  #text {
+    align-self: center;
+    padding: 20px;
+  }
+  
+  h4 {
+    color: rgb(207, 149, 185);
+    background-color: pink;
+    opacity: 0.8;
+  }
+
+  h5{  color: palevioletred;
+    background-color: pink;
+             align-self: baseline;
+
+}
+h1{ color: rgb(245, 193, 201);
+  font-size: larger;
+text-align: left;
+transform: translate(-100px);
+margin-top: 250px
+
+
+}
+
+
+  
+ h6 { color: palevioletred;
+align-self: self-end;
+transform: translateX(-250px);
+font-size: 30px;
+
+
+  }
+  
+  .description {
+    font-size: 17px;
+    width: 1000px;
+    color: #08090b;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.836);
+    padding: 10px;
+    background-color: pink;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 50px;
+  }
+  
+  #lucas {
+    font-weight: bold;
+  }
+  
+  #lucas:hover {
+    color: pink
+    opacity: 0.8;
+    transition: 0.5s;
+  }
+  
